@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div {
+				width: 100px;
+				height: 100px;
+				background: red;
+				/*加多个属性*/
+				/*transition-property: width,height;*/
+				/*所有属性都加上动画*/
+				/*transition-property: all;
+				transition-duration: 1s;
+				transition-timing-function:ease-in-out;*/
+				/*延迟多久执行这个动画*/
+				/*transition-delay:2s;*/
+				/*transition: width 1s,height 2s;*/
+				
+			}
+			div:hover {
+				transition: all 1s;
+				width: 200px;
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
